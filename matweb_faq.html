@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title> SOS Matemática </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/matweb_paginas.css" > <!--Base-->
+		<link rel="stylesheet" type="text/css" href="./css/matweb_paginas2.css" > <!--Layout-->
+		<link rel="stylesheet" type="text/css" href="./css/matweb_paginas3.css" > <!--Tema-->
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.jrumble.1.3.min.js"></script>
+		<script>
+			$(function(){
+				$(".tudo").hover(
+						function(){
+						//Ao posicionar o cursor sobre a div
+						$(this).css('background', '#00688B');
+						},
+						function(){
+						//Ao remover o cursor da div
+						$(this).css('background', '#4682B4');
+						}
+				);
+				$('.imagemlogo').hover(function(){
+				$(this).trigger('startRumble');
+			}, function(){
+				$(this).trigger('stopRumble');
+			});
+			$('.imagemlogo').jrumble({
+				opacity: true
+			});
+			});
+		</script>
+	</head>
+	
+<body>
+<div class="cabecalho">
+		<div class="logo">
+			<img class="imagemlogo" src="./imagens/sos.png" alt="logo">
+		</div>
+		<nav class="menu">
+			<ul>
+				<li><a class="fonte_menu" href="matweb.html">Página Inicial</a></li>	
+				<li><a class="fonte_menu" href="matweb_erros.html">Erros</a></li>		
+				<li><a class="fonte_menu" href="matweb_hist.html">História</a></li>
+				<li><a class="fonte_menu" href="matweb_curiosidades.html">Curiosidades</a></li>
+				<li><a class="fonte_menu" href="matweb_mat.html">Matérias</a></li>
+				<li><a class="fonte_menu" href="matweb_olimpiadas.html">Olimpíadas</a></li>
+				<li><a class="fonte_menu" href="matweb_faq.html">FAQ</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="tudo">
+	<h2>Perguntas mais frequentes</h2>
+		<div class="texto">
+			<h1>Zero é neutro?</h1>
+			<div class="paragrafo">
+				<p>Cuidado com o termo "neutro" porque a neutralidade depende a quê se refere.</p>
+				<p>Na soma entre dois números A + B o número 0 é neutro pois nessa operação, comutativa, A+0 = 0+A = A.</p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1>Um é neutro?</h1>
+			<div class="paragrafo">
+				<p>Cuidado com o termo "neutro" porque a neutralidade depende a quê se refere.</p>
+				<p>Na multiplicação entre dois números A * B o número 1 é neutro pois nessa operação, comutativa, A*1 = 1*A = A.</p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1>Porque quando troca de lado muda o sinal de um número?</h1>
+			<div class="paragrafo">
+				<p>A soma é inversa da subtração portanto estas operações se anulam, o mesmo com a multiplicação e a divisão elas se anulam. Com base no equilibrio e em operações inversas podemos resolver qualquer equação de 1°grau veja.</p>
+				<p>3x + 9 = 18 a equação está em equilibrio porque tem igualdade "sinal de igual" porém você não sabe o valor de x.</p>
+				<p>3x + 9 - 9 = 18 - 9 Acrecentei o -9 no lado esquerdo da equação para anular o +9 que esta deste mesmo lado. Agora acrecentei o -9 do lado direito da equação para manter o equilibrio da balança ou da equação. Agora é só calcular dos dois lados da igualdade.</p>
+				<p>3x = 9 Agora tá na cara que x = 3 porém se você não sabe lembre-se mantenha o equilibrio com os números e com as operações que se anulam, portanto se eu multiplico o x por 3 devo anular com a operação inversa dividindo o 9 por 3 e o resultado é 3.</p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1>O que são números irracionais?</h1>
+			<div class="paragrafo">
+				<p>Número irracional é um número real que não pode ser obtido pela divisão de dois números inteiros, ou seja, são números reais mas não racionais.</p>
+				<p></p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1>O que são números primos?</h1>
+			<div class="paragrafo">
+				<p>Números primos são os números naturais que têm apenas dois divisores diferentes: o 1 e ele mesmo.</p>
+				
+				</div>
+		</div>
+		<div class="texto">
+			<h1>O que significa o símbolo "!" na matemática?</h1>
+			<div class="paragrafo">
+				<p>! significa fatorial, para usá-lo, multiplicamos um número por todos os seus anteriores.</p>
+				<p>Exemplo</p>
+				<p>5!=5.4.3.2.1=120</p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1>O que é um número simétrico?</h1>
+			<div class="paragrafo">
+				<p>Um número será simétrico ou oposto de outro número quando for representado em uma reta numérica e possuir a mesma distância da origem em relação a outro número. Ou seja, o número simétrico à 7 é o -7, um número simétrico à -9 é o 9.</p>
+				<p></p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1></h1>
+			<div class="paragrafo">
+				<p></p>
+				<p></p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1></h1>
+			<div class="paragrafo">
+				<p></p>
+				<p></p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1></h1>
+			<div class="paragrafo">
+				<p></p>
+				<p></p>
+				</div>
+		</div>
+		<h3>Esperamos ter ajudado!</h3>
+	</div>
+	<footer class="footer">
+		<p>Trabalho de Desing Web - Isabela da Rocha Jardim e Sara Pacheco Costa - 2º ano</p>
+		</footer>
+</body>
+</html>

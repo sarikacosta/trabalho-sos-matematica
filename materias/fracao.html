@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+			<title> SOS Matemática </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas.css" > <!--Base-->
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas2.css" > <!--Layout-->
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas3.css" > <!--Tema-->
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+<script src="../js/jquery-3.2.1.min.js"></script>
+		<script>
+		$(function(){
+			$(".tudo").hover(
+					function(){
+					//Ao posicionar o cursor sobre a div
+					$(this).css('background', '#00688B');
+					},
+					function(){
+					//Ao remover o cursor da div
+					$(this).css('background', '#4682B4');
+					}
+			);
+			
+		});
+		</script>
+</head>
+	
+<body>
+		<div class="cabecalho">
+			<div class="logo">
+				<img src="../imagens/sos.png" alt="logo">
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a class="fonte_menu" href="../matweb.html">Página Inicial</a></li>	
+					<li><a class="fonte_menu" href="../matweb_erros.html">Erros</a></li>		
+					<li><a class="fonte_menu" href="../matweb_hist.html">História</a></li>
+					<li><a class="fonte_menu" href="../matweb_curiosidades.html">Curiosidades</a></li>
+					<li><a class="fonte_menu" href="../matweb_mat.html">Matérias</a></li>
+					<li><a class="fonte_menu" href="../matweb_olimpiadas.html">Olimpíadas</a></li>
+					<li><a class="fonte_menu" href="../matweb_faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</div>
+	<div class="tudo">
+	<h2>Fração</h2>
+		<div class="texto">
+			<h1>O que é uma fração?</h1>
+			<div class="paragrafo">
+				<p>Uma fração é a representação de uma ou mais partes de algo que foi dividido em partes iguais</p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="texto">
+		<h1>Soma e subtração</h1>
+			<div class="paragrafo">
+				<p>1º - Calcular o mínimo múltiplo comum entre os denominadores. O valor encontrado será o denominador comum que possibilitará substituir as frações dadas por outras com denominadores iguais.</p>
+				<p>2º - Reescrever as frações com o novo denominador, deixando o espaço do numerador para os números que serão encontrados no passo seguinte.</p>
+				<p>3º - Encontre os numeradores das novas frações. Para isso, o seguinte cálculo deverá ser feito: Para encontrar o numerador da primeira fração, divida o MMC pelo denominador da primeira fração e multiplique o resultado pelo seu numerador. O resultado obtido por esse cálculo será o numerador da primeira fração que possui denominador igual ao MMC. Repita o procedimento para todas as frações presentes na soma ou subtração.</p>
+				<p>4º - Somar as novas frações utilizando o caso anterior (de denominadores iguais). Após encontrar as novas frações, basta repetir o procedimento anterior, no qual somamos ou subtraímos os numeradores e mantemos o denominador intacto.</p>
+			</div>
+		</div>
+		<div class="texto">
+		<h1>Multiplicação</h1>
+			<div class="paragrafo">
+				<p>Na multiplicação de frações basta multiplicar um numerador pelo outro e, de seguida, um denominador pelo outro.</p>
+				
+			</div>
+		</div>
+		<div class="texto">
+		<h1>Divisão</h1>
+			<div class="paragrafo">
+				<p>1º - O numerador da primeira fração multiplica o denominador da segunda e fica como numerador da resposta</p>
+				<p>2º - O denominador da primeira fração multiplica o numerador da outra fração e fica como denominador da resposta</p>
+			</div>
+		</div>
+	<h3>Esperamos ter ajudado!</h3>
+	</div>
+	<footer class="footer">
+		<p>Trabalho de Desing Web - Isabela da Rocha Jardim e Sara Pacheco Costa - 2º ano</p>
+		</footer>
+</body>
+</html>

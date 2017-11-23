@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+			<title> SOS Matemática </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas.css" > <!--Base-->
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas2.css" > <!--Layout-->
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas3.css" > <!--Tema-->
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+<script src="../js/jquery-3.2.1.min.js"></script>
+		<script>
+		$(function(){
+			$(".tudo").hover(
+					function(){
+					//Ao posicionar o cursor sobre a div
+					$(this).css('background', '#00688B');
+					},
+					function(){
+					//Ao remover o cursor da div
+					$(this).css('background', '#4682B4');
+					}
+			);
+			
+		});
+		</script>
+</head>
+	
+<body>
+		<div class="cabecalho">
+			<div class="logo">
+				<img src="../imagens/sos.png" alt="logo">
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a class="fonte_menu" href="../matweb.html">Página Inicial</a></li>	
+					<li><a class="fonte_menu" href="../matweb_erros.html">Erros</a></li>		
+					<li><a class="fonte_menu" href="../matweb_hist.html">História</a></li>
+					<li><a class="fonte_menu" href="../matweb_curiosidades.html">Curiosidades</a></li>
+					<li><a class="fonte_menu" href="../matweb_mat.html">Matérias</a></li>
+					<li><a class="fonte_menu" href="../matweb_olimpiadas.html">Olimpíadas</a></li>
+					<li><a class="fonte_menu" href="../matweb_faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</div>
+	<div class="tudo">
+	<h2>Módulo</h2>
+		<div class="texto">
+			<div class="paragrafo">
+				<p>Chamamos a distância de um ponto da reta à origem (distância do ponto até o zero) de módulo ou valor absoluto</p>
+				<p>Assim, a distância do ponto 4 à origem é 4. Dizemos que o módulo de 4 é igual a 4. E representamos</p>
+				<p>|4| = 4</p>
+				<p>Da mesma forma, a distância do ponto -2 à origem é 2, ou seja, o módulo de -2 é 2, pois não há muito sentido em considerarmos distâncias negativas. Assim:</p>
+				<p>|-2| = 2</p>
+				<p>|x| = x, se x for um número positivo e |x| = -x, se x for um número negativo</p>
+				<p>Ou seja, o módulo de algum número será ele positivo. Não existem módulos negativos, então |x| = -12, x não existe!</p>
+			</div>
+		</div>
+		<div class="texto">
+			<h1>E quando temos uma equação modular?</h1>
+			<div class="paragrafo">
+				<p>Equações são expressões matemáticas algébricas que possuem uma ou mais incógnitas, sempre apresentadas com o sinal de igualdade. Equação modular se enquadra neste conceito geral, mas no caso das modulares, as incógnitas se encontram dentro do módulo.</p>
+				<p>Vejamos alguns exemplos:</p>
+				<p>|x + 2| = 4</p>
+				<p>Para resolver essa equação, primeiro temos que fazer uma condição e a resposta só será válida se satisfazer a condição.</p>
+				<p>Condições:</p>
+				<p>x + 2 = 4 ou x + 2 = – 4</p>
+				<p>Agora, faremos duas possíveis soluções, uma será quando tudo dentro do módulo é negativo e a outra quando o que está dentro do módulo é negativo (porque aí quando coloca-se o módulo ficará sempre positivo)</p>
+				<p>Resolução:</p>
+				<p>x + 2 = 4 → x = 4 – 2 → x = 2 </p>
+				<p>x + 2 = – 4 → x = – 4 – 2 → x = – 6 </p>
+				<p>As soluções são os valores encontrados desde que satisfaça a condição</p>
+				<p>S = {–6; 2}</p>
+				<p>Vejamos outro exemplo, seguindo os mesmos passos</p>
+				<p>|4x – 8| = x + 1 </p>
+				<p>Condições: </p>
+				<p>|4x – 8| ≥ 0, dessa forma a equação só é possível se x + 1 ≥ 0, x ≥ –1. </p>
+				<p>4x – 8 = x + 1 ou 4x – 8 = – (x + 1)</p>
+				<p>Resolução: </p>
+				<p>4x – 8 = x + 1 → 4x – x = 1 + 8 → 3x = 9 → x = 9/3 → x = 3</p>
+				<p>4x – 8 = – (x + 1) → 4x – 8 = – x – 1 → 4x + x = – 1 + 8 → 5x = 7 → x = 7/5 </p>
+			</div>
+		</div>
+		<h3>Esperamos ter ajudado!</h3>
+	</div>
+	<footer class="footer">
+		<p>Trabalho de Desing Web - Isabela da Rocha Jardim e Sara Pacheco Costa - 2º ano</p>
+	</footer>
+</body>
+</html>

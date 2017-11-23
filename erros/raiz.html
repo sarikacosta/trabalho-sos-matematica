@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+			<title> SOS Matemática </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas.css" > <!--Base-->
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas2.css" > <!--Layout-->
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas3.css" > <!--Tema-->
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+<script src="../js/jquery-3.2.1.min.js"></script>
+		<script>
+		$(function(){
+			$(".tudo").hover(
+					function(){
+					//Ao posicionar o cursor sobre a div
+					$(this).css('background', '#00688B');
+					},
+					function(){
+					//Ao remover o cursor da div
+					$(this).css('background', '#4682B4');
+					}
+			);
+			
+		});
+		</script>
+</head>
+	
+<body>
+		<div class="cabecalho">
+			<div class="logo">
+				<img src="../imagens/sos.png" alt="logo">
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a class="fonte_menu" href="../matweb.html">Página Inicial</a></li>	
+					<li><a class="fonte_menu" href="../matweb_erros.html">Erros</a></li>		
+					<li><a class="fonte_menu" href="../matweb_hist.html">História</a></li>
+					<li><a class="fonte_menu" href="../matweb_curiosidades.html">Curiosidades</a></li>
+					<li><a class="fonte_menu" href="../matweb_mat.html">Matérias</a></li>
+					<li><a class="fonte_menu" href="../matweb_olimpiadas.html">Olimpíadas</a></li>
+					<li><a class="fonte_menu" href="../matweb_faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</div>
+	<div class="tudo">
+		<div class="texto_erros">
+			<h2>RAIZ</h2>
+        </div>
+		<div class="erro">
+			<h1>Cortar raiz com potência de uma soma ou subtração</h1>
+			<p>Não podemos cortar a raiz com a potência se dentro da raiz for uma soma</p>
+		</div>
+		<div class="erro">
+			<h1>Separar as raízes com soma</h1>
+			<p>Não podemos separar uma raiz que tem uma soma em duas raízes</p>
+		</div>
+		<div class="erro">
+			<h1>Sinais negativos </h1>
+			<p>Não existe raiz de número negativo quando o índice é par, porém quando é ímpar podemos ter</p>
+		</div>
+		<div class="erro">
+			<h1>Raiz de x ao quadrado = x</h1>
+			<p>Não podemos cortar uma raiz com potência se não soubermos o número que está dentro da raiz, porque se for um número negativo ele fica positivo, por isso igualamos ao módulo</p>
+		</div>
+		<h3>Esperamos ter ajudado!</h3>
+	</div>
+	<footer class="footer">
+			<p>Trabalho de Desing Web - Isabela da Rocha Jardim e Sara Pacheco Costa - 2º ano</p>
+			</footer>
+</body>
+</html>

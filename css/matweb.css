@@ -1,0 +1,32 @@
+			main
+			{
+				padding: 0px 0px;
+			}			
+			nav
+			{
+				padding: 10px 10px 10px 10px; 
+				
+			}
+
+			li
+			{
+				list-style:none;
+				font-family: 'Vollkorn SC', serif;
+			}
+			p{
+				font-family: 'Vollkorn SC', serif;
+
+			}
+			@media(max-width: 1000px) {
+				* {
+					box-sizing: border-box;
+				}
+				body,
+				html,
+				main {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					width: 100%;
+				}
+			}

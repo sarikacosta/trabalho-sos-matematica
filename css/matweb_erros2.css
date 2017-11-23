@@ -1,0 +1,135 @@
+			.logo img
+			{
+				width:200px;
+				padding: 0px 0px;
+				background: url(img/gear.svg) no-repeat;
+				background-size: contain;
+			}
+			.logo
+			{
+				text-align:center; 
+				margin-top:0px;
+				padding: 0px 0px;
+			}
+			.menu ul {
+				list-style: none;
+				display: block;
+				padding: 0;
+				margin: 0;
+				text-align: center;
+			}
+			
+			.menu li {
+				display: inline-block;
+				padding: 0 60px;
+				border-left: 1px solid white;
+			}
+			
+			.menu li:last-child {
+				border-right: 1px solid white;
+			}
+			.menu li a {
+				padding: 0;
+				display: block;
+			}
+			.texto_principal
+			{
+				text-align:center;
+				padding:0px 140px;
+				font-size: 20px;
+				margin: 0 auto;
+			}
+			.tudo
+			{
+				word-wrap:break-word;
+				margin-right:50px;
+				margin-left:50px;
+				margin-top:50px;
+				text-align: center;
+				padding:12px;
+				margin-bottom:10px;
+			}
+			.caixa 
+			{
+				width:800px 800px;
+				margin-right:50px;
+				margin-left:50px;
+				margin-top:50px;
+				margin-bottom:0px;
+				text-align: center;
+			}
+			.footer
+			{
+				margin-top: 0px;
+				margin-bottom: 0px;
+				text-align: center;
+			}
+			.texto_principal
+			{
+				text-align:center;
+				padding:0px 140px;
+				margin: 0px;
+			}
+			.fonte
+			{
+				text-decoration: none;
+				font-size: 30px;
+			}
+			.fonte_menu
+			{
+				text-decoration: none;
+				font-size: 10px;
+			}
+			@media(max-width: 1000px) {
+				.tudo {
+					margin: 0;
+					padding: 10px;
+					width: 100%;
+				}
+				
+				.caixa {
+					margin: 0 0 10px;
+				}
+				.menu ul {
+					margin: 0;
+					padding: 0;
+					width: 100%;
+				}
+				
+				.menu ul li {
+					border: none;
+					float: none;
+					margin: 0;
+					padding: 0 !important;
+				}
+				
+				.menu ul li:last-child {
+					border: none;
+				}
+				
+				.menu ul li a {
+					border: none !important;
+					display: block;
+					padding: 5px 1px !important;
+				}
+				
+				.texto_principal {
+					padding: 10px;
+					font-size: 15px;
+				}
+				.imagem
+				{
+					margin-right:0px;
+					margin-left:0px;
+					margin:0 auto;
+				}
+				.fonte_menu
+				{
+					text-decoration: none;
+					font-size: 8px;
+				}
+				.imagemlogo
+				{
+					width:100px !important;
+				}
+			}

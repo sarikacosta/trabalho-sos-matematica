@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title> SOS Matemática </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/matweb_erros.css" > <!--Base-->
+		<link rel="stylesheet" type="text/css" href="./css/matweb_erros2.css" > <!--Layout-->
+		<link rel="stylesheet" type="text/css" href="./css/matweb_erros3.css" > <!--Tema-->
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.jrumble.1.3.min.js"></script>
+		<script>
+		$(function(){
+			$(".caixa").hover(
+					function(){
+					//Ao posicionar o cursor sobre a div
+					$(this).css('background', '#4682B4');
+					},
+					function(){
+					//Ao remover o cursor da div
+					$(this).css('background', '#00688B');
+					}
+			);
+			$('.caixa').hover(function(){
+				$(this).trigger('startRumble');
+			}, function(){
+				$(this).trigger('stopRumble');
+			});
+			$(".caixa").jrumble({
+					speed: 100
+			});
+			$('.imagemlogo').hover(function(){
+				$(this).trigger('startRumble');
+			}, function(){
+				$(this).trigger('stopRumble');
+			});
+			$('.imagemlogo').jrumble({
+				opacity: true
+			});
+		});
+	</script>
+	</head>
+	
+	<body>
+		<main>
+		<div class="cabecalho">
+			<div class="logo">
+				<img class="imagemlogo" src="./imagens/sos.png" alt="logo">
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a class="fonte_menu" href="matweb.html">Página Inicial</a></li>
+					<li><a class="fonte_menu" href="matweb_erros.html">Erros</a></li>
+					<li><a class="fonte_menu" href="matweb_hist.html">História</a></li>
+					<li><a class="fonte_menu" href="matweb_curiosidades.html">Curiosidades</a></li>
+					<li><a class="fonte_menu" href="matweb_mat.html">Matérias</a></li>
+					<li><a class="fonte_menu" href="matweb_olimpiadas.html">Olimpíadas</a></li>
+					<li><a class="fonte_menu" href="matweb_faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</div>
+		<section class="tudo">
+			<div class="caixa"><a class="fonte" href="materias/fracao.html">Fração</a>
+				<p>Aprenda tudo sobre a fração.</p>
+			</div>
+			<div class="caixa"><a class="fonte" href="materias/funcao_segundograu.html">Função de 2º grau</a>
+				<p>Aprenda tudo sobre a Função do 2º grau.</p>
+			</div>
+			<div class="caixa"><a class="fonte" href="materias/modulo.html">Módulo</a>
+				<p>Aprenda tudo sobre o módulo.</p>
+			</div>
+		<footer class="footer">
+			<p>Trabalho de Desing Web - Isabela da Rocha Jardim e Sara Pacheco Costa - 2º ano</p>
+			</footer>
+        </section>	
+		</main>
+</body>
+</html>

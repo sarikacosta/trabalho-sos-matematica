@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+			<title> SOS Matemática </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas.css" > <!--Base-->
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas2.css" > <!--Layout-->
+		<link rel="stylesheet" type="text/css" href="../css/matweb_paginas3.css" > <!--Tema-->
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+<script src="../js/jquery-3.2.1.min.js"></script>
+		<script>
+		$(function(){
+			$(".tudo").hover(
+					function(){
+					//Ao posicionar o cursor sobre a div
+					$(this).css('background', '#00688B');
+					},
+					function(){
+					//Ao remover o cursor da div
+					$(this).css('background', '#4682B4');
+					}
+			);
+			
+		});
+		</script>
+</head>
+	
+<body>
+		<div class="cabecalho">
+			<div class="logo">
+				<img src="../imagens/sos.png" alt="logo">
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a class="fonte_menu" href="../matweb.html">Página Inicial</a></li>	
+					<li><a class="fonte_menu" href="../matweb_erros.html">Erros</a></li>		
+					<li><a class="fonte_menu" href="../matweb_hist.html">História</a></li>
+					<li><a class="fonte_menu" href="../matweb_curiosidades.html">Curiosidades</a></li>
+					<li><a class="fonte_menu" href="../matweb_mat.html">Matérias</a></li>
+					<li><a class="fonte_menu" href="../matweb_olimpiadas.html">Olimpíadas</a></li>
+					<li><a class="fonte_menu" href="../matweb_faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</div>
+	<div class="tudo">
+		<div class="texto_erros">
+			<h2>FRAÇÃO</h2>
+		</div>
+		<div class="erro">
+			<h1>Sinal negativo na fração toda</h1>
+			<p>O sinal negativo é para todo o numerador da fração. </p>
+		</div>
+		<div class="erro">
+			<h1>Simplificação</h1>
+			<p>Não podemos simplificar o numerador com denominador se no numerador tiver uma soma ou subtração.</p>
+		</div>
+		<div class="erro">
+			<h1>Soma e subtração</h1>
+			<p>Quando temos uma soma de frações temos que colocar tudo em um mesmo denominador, assim, repetimos o denominador e somamos (ou subtraimos) o numerador.</p>
+		</div>
+		<div class="erro">
+			<h1>Multiplicação</h1>
+			<p>Quando fazemos multiplicação de fração temos que lembrar que no número que queremos multiplicar a fração tem o 1 no denominador, então, lembrando da regra de multiplicação (numerador multiplica numerador e denominador multiplica denominador) vamos multiplicar o denominador por 1 (ele vai repetir) e o numerador multiplica pelo número.</p>
+		</div>
+		<div class="erro">
+			<h1>Divisão</h1>
+			<p>Quando dividimos uma fração por outra não podemos fazer regra de três, nós temos que repetir a primeira fração e multiplicar pelo segunda invertida. Quando for um número dividindo por uma fração ou uma fração dividindo por um número, lembre-se: Todo número pode virar uma fração, apenas coloque o 1 no denominador.</p>
+		</div>
+		<div class="erro">
+			<h1>Divisão com zero</h1>
+			<p>O erro mais comum em fração é dizer que não é possível dividir por zero. Muitos professores dizem isso, e até mesmo as calculadoras! Mas, nem todo número quando dividido por zero é igual a zero, se eu dividir 0 por 0, será indeterminação. Pense na equação: x=0/0 -> 0x=0, x pode ser qualquer coisa, pois qualquer número vezes 0 é zero.</p>
+		</div>
+		<h3>Esperamos ter ajudado!</h3>
+	</div>
+	<footer class="footer">
+			<p>Trabalho de Desing Web - Isabela da Rocha Jardim e Sara Pacheco Costa - 2º ano</p>
+	</footer>
+</body>
+</html>

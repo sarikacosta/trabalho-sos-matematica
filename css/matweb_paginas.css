@@ -1,0 +1,49 @@
+			main
+			{
+				padding: 0px 0px;
+			}
+			nav
+			{
+				padding: 10px 10px 10px 10px; 
+			}
+			li
+			{
+				list-style:none;
+				font-family: 'Vollkorn SC', serif;
+			}
+			
+			h1
+			{
+				text-align: center;
+				font-family: 'Vollkorn SC', serif;
+			}
+			
+			h2
+			{
+				font-size: 40px;
+				text-align: center;
+				font-family: 'Vollkorn SC', serif;
+			}
+			h3
+			{
+				font-weight: bold;
+				font-size: 20px;
+				font-family: 'Vollkorn SC', serif;
+			}
+			p{
+				font-family: 'Vollkorn SC', serif;
+			}
+			@media(max-width: 600px) {
+				* {
+					box-sizing: border-box;
+				}
+				
+				body,
+				html,
+				main {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					width: 100%;
+				}
+			}

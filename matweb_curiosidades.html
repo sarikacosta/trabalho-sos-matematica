@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title> SOS Matemática </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/matweb_paginas.css" > <!--Base-->
+		<link rel="stylesheet" type="text/css" href="./css/matweb_paginas2.css" > <!--Layout-->
+		<link rel="stylesheet" type="text/css" href="./css/matweb_paginas3.css" > <!--Tema-->
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.jrumble.1.3.min.js"></script>
+		<script>
+			$(function(){
+				$(".tudo").hover(
+						function(){
+						//Ao posicionar o cursor sobre a div
+						$(this).css('background', '#00688B');
+						},
+						function(){
+						//Ao remover o cursor da div
+						$(this).css('background', '#4682B4');
+						}
+				);
+				$('.imagemlogo').hover(function(){
+				$(this).trigger('startRumble');
+			}, function(){
+				$(this).trigger('stopRumble');
+			});
+			$('.imagemlogo').jrumble({
+				opacity: true
+			});
+			});
+		</script>
+	</head>
+	
+<body>
+<div class="cabecalho">
+		<div class="logo">
+			<img class="imagemlogo" src="./imagens/sos.png" alt="logo">
+		</div>
+		<nav class="menu">
+			<ul>
+				<li><a class="fonte_menu" href="matweb.html">Página Inicial</a></li>	
+				<li><a class="fonte_menu" href="matweb_erros.html">Erros</a></li>		
+				<li><a class="fonte_menu" href="matweb_hist.html">História</a></li>
+				<li><a class="fonte_menu" href="matweb_curiosidades.html">Curiosidades</a></li>
+				<li><a class="fonte_menu" href="matweb_mat.html">Matérias</a></li>
+				<li><a class="fonte_menu" href="matweb_olimpiadas.html">Olimpíadas</a></li>
+				<li><a class="fonte_menu" href="matweb_faq.html">FAQ</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="tudo">
+	<h2>Curiosidades da Matemática</h2>
+		<div class="texto">
+			<h1>O poder do 4</h1>
+			<div class="paragrafo">
+				<p>Essa aqui é mérito nacional e bastante conhecido de quem já gostava de matemática na infância. Escrito pelo brasileiro Júlio César de Melo e Sousa, sob o pseudônimo Malba Tahan, o livro “O Homem que Calculava” trazia, entre outras teorias, a dos “quatro quatros”.</p>
+				<p>Segundo ela, é possível formar qualquer número inteiro de 0 a 100 utilizando quatro numerais 4 e sinais de operações matemáticas, como soma, divisão, exponenciação ou fatorial. Deseja obter um “3”? É só fazer a seguinte operação: (4+4+4)/4. Fãs de Tahan já afirmam conseguir obter qualquer número até a casa dos 100.000. Será que você consegue?</p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1>Teorema da incompletude</h1>
+			<div class="paragrafo">
+				<p>O austríaco Kurt Gödel é responsável por uma das curiosidades mais interessantes e bizarras da matemática. O “Teorema da incompletude” que leva seu nome tem duas teorias, mas a segunda delas é capaz de confundir a cabeça até do fã mais radical dessa ciência.</p>
+				<p>Segundo ela, uma teoria aritmética só pode provar sua consistência se for um axioma inconsistente. Calma, explicamos: uma fórmula não pode garantir sua própria existência – mas isso pode ser feito por outra verdade matemática, que dá continuidade ao ciclo. Que confusão!</p>
+				</div>
+		</div>
+		<div class="texto">
+			<h1>Problemas do milênio</h1>
+			<div class="paragrafo">
+				<p>Em 2000, o Clay Mathematics Institute anunciou que pagaria o prêmio de US$ 1 milhão a cada matemático que fosse capaz de resolver os chamados “problemas do milênio”: sete problemas bolados durante vários séculos e que nunca haviam sido resolvidos.</p>
+				<p>Ninguém nega que o prêmio é bom, mas isso não significa que ele sairia tão facilmente. Demorou dez anos para a fundação desembolsar o primeiro dos sete pagamentos, feito ao russo Grigori Perelman, que resolveu a chamada “conjectura de Poincaré”, uma série de cálculos abstratos envolvendo esferas tridimensionais. Ele rejeitou o pagamento e, até agora, ainda é o único a riscar um problema da lista.</p>
+			</div>
+		</div>
+		<div class="texto">
+			<h1>Gênio precoce</h1>
+			<div class="paragrafo">
+				<p>O matemático Evariste Galois é um dos destaques dessa ciência por seu conhecimento elevado ainda na adolescência, quando muita gente não quer nem chegar perto dos números. Ele chegou até a questionar os professores e abandonar as aulas para estudar por livros de gênios já consagrados, pois se considerava um nível acima daquilo tudo.</p>
+				<p>Nessa época, ele inventou um ramo totalmente novo da matemática, a “teoria dos grupos”, na qual constava a resposta sobre como resolver uma equação do 5° grau ou mais sem utilizar a transformação dos radicais, mas buscando as raízes da fórmula.</p>
+			</div>
+		</div>
+		<div class="texto">
+			<h1>Números Primos</h1>
+			<div class="paragrafo">
+				<p>Os números primos fazem parte de um dos mais simples e intrigantes mistérios da matemática. Por que o 7, o 13 e o 29 são primos – e as unidades anteriores ou seguintes não? O padrão de distribuição dessa classificação permanece desconhecido, mas há uma luz no fim do túnel.</p>
+				<p>Chamada “Hipótese de Riemann”, a teoria tenta estabelecer um padrão escondido e não aleatório para os números primos – mas entender isso leva ainda mais tempo do que decorá-los.</p>
+			</div>
+		</div>
+		<div class="texto">
+			<h1>Números amigáveis</h1>
+			<div class="paragrafo">
+				<p>Números amigáveis são pares de números onde um deles é a soma dos divisores do outro.</p>
+				<p>Por exemplo, os divisores de 220 são 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 e 110, cuja soma é 284.</p>
+				<p>Por outro lado, os divisores de 284 são 1, 2, 4, 71 e 142 e a soma deles é 220. Fermat descobriu também o par 17.296 e 18.416 e Descartes descobriu o par 9.363.584 e 9.437.056.</p>
+			</div>
+		</div>
+		<h3>Esperamos ter ajudado!</h3>
+	</div>
+	<footer class="footer">
+		<p>Trabalho de Desing Web - Isabela da Rocha Jardim e Sara Pacheco Costa - 2º ano</p>
+		</footer>
+</body>
+</html>

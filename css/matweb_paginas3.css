@@ -1,0 +1,35 @@
+			main
+			{
+				background-color:#FFF;
+			}
+			.logo
+			{
+				background-color:#FFF;
+			}
+			nav
+			{
+				background-color:#00688B;
+			}
+			.tudo
+			{
+				background-color: #4682B4;
+			}
+			.texto, h1,p, h2, h3
+			{
+				color: #FFF;
+			}
+			.footer
+			{
+				background-color:#00688B;
+				color: #FFF;
+			}
+			.fonte_menu
+			{
+				color: #FFF;
+			}
+			.fonte_menu:hover {
+				color: #87CEFA;
+			}
+			.link{
+				color: #FFF;
+			}

@@ -1,0 +1,39 @@
+			main
+			{
+				background-color:#FFF;
+			}			
+			nav
+			{
+				background-color:#00688B;
+			
+			}				
+			.logo
+			{
+				background-color:#fff;
+			}
+			.texto_principal
+			{
+				background-color:#00688B;
+				color:#FFF;
+			}
+			.texto
+			{
+				color:#FFF;
+				background-color:#00688B;
+			}
+			.footer
+			{
+				background-color:#00688B;
+				color: #FFF;
+			}
+			.fonte
+			{
+				color: #FFF;
+			}
+			.fonte_menu
+			{
+				color: #FFF;
+			}
+			.fonte_menu:hover {
+				color: #87CEFA;
+			}
